@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linkando o bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+    <!-- Linkando a minha o meu css -->
+    <link rel="stylesheet" type="text/css " href="css/style.css">
+    <title>Minha Página</title>
+</head>
+
+<body>
+    <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+            <img src="img/globallabs.jpg" width="" height="80">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="quem-somos">
+        <div class="container-fluid quem-somos text-center margin">
+            <!-- container-fluid - Pega a pagina toda -->
+            <h3>Quem Somos</h3>
+            <img src="img/quem-somos.png" class="rounded-circle" width="300" height="300">
+            <h3>Somos um time comprometido com os resultados</h3>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <!-- container-fluid - Pega a pagina toda -->
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row"> <!-- Onde inicia as colunas -->
+                    <div class="col-lg-4">
+                        <img src="img/done.jpg" width="100%"> <!-- width="100%" para enquadrar na coluna -->
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/done.jpg" width="100%"> <!-- width="100%" para enquadrar na coluna -->
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/done.jpg" width="100%"> <!-- width="100%" para enquadrar na coluna -->
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+                <div class="row"> <!-- Onde inicia as colunas -->
+                    <div class="col-lg-4">
+                        <p>Os serviços são atividades onde o consumidor não obtém a posse exclusiva da coisa adquirida (salvo o caso em que exista contrato de exclusividade).</p>
+                        <img src="img/servicos.jpg" width="300" height="200">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Os serviços são atividades onde o consumidor não obtém a posse exclusiva da coisa adquirida (salvo o caso em que exista contrato de exclusividade).</p>
+                        <img src="img/servicos2.jpg" width="200" height="200">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Os serviços são atividades onde o consumidor não obtém a posse exclusiva da coisa adquirida (salvo o caso em que exista contrato de exclusividade).</p>
+                        <img src="img/servicos3.jpg" width="300" height="200">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Lucas Barbosa</p>
+    </footer>
+</body>
+
+</html>
